@@ -119,12 +119,13 @@ nav a {
     color: white;
     margin-left: 2rem;
     font-weight: 500;
-    border-bottom: 3px solid transparent;
+    border: 3px solid transparent;
     transition: 0.4s ease;
+    padding: 0.5rem 1.5rem;
     
 }
 
-nav a:hover {
+nav a:hover, nav a.active {
     color: #f95c80;
     padding: 0.5rem 1.5rem;
     border: 3px solid #b70f4f;
@@ -133,19 +134,16 @@ nav a:hover {
     
 }
 
-section {
+section.home {
     /* background-color: beige; */
 
     min-height: 100vh;
     padding: 5rem 9%;
-}
-
-.home {
     background-color: #090909;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 11rem;
 
 }
 
